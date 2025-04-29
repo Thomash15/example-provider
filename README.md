@@ -14,7 +14,7 @@ It is using a public tenant on PactFlow, which you can access [here](https://tes
 
 When using Pact in a CI/CD pipeline, there are two reasons for a pact verification task to take place:
 
-* When the provider changes (to make sure it does not break any existing consumer expectations)
+* When the provider changes (to make sure it does not break any existing consumer expectations) 123
 * When a pact changes (to see if the provider is compatible with the new expectations)
 
 When the provider changes, the pact verification task runs as part the provider's normal build pipeline, generally after the unit tests, and before any deployment takes place. This pact verification task is configured to dynamically fetch all the relevant pacts for the specified provider from PactFlow, verify them, and publish the results back to PactFlow.
