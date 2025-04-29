@@ -6,7 +6,7 @@
 
 [![pactflow-example-provider/pactflow-example-consumer](https://test.pactflow.io/pacts/provider/pactflow-example-provider/consumer/pactflow-example-consumer/latest/master/badge.svg)](https://test.pactflow.io/pacts/provider/pactflow-example-provider/consumer/pactflow-example-consumer/latest/master)
 
-test This is an example of a Node provider that uses Pact, [PactFlow](https://pactflow.io) and Github Actions to ensure that it is compatible with the expectations its consumers have of it. 123
+test This is an example of a Node provider that uses Pact, [PactFlow](https://pactflow.io) and Github Actions to ensure that it is compatible with the expectations its consumers have of it. 
 
 It is using a public tenant on PactFlow, which you can access [here](https://test.pactflow.io/) using the credentials `dXfltyFMgNOFZAxr8io9wJ37iUpY42M`/`O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1`. The latest version of the Example PactFlow Consumer/Example PactFlow Provider pact is published [here](https://test.pactflow.io/overview/provider/pactflow-example-provider/consumer/pactflow-example-consumer).
 
@@ -14,7 +14,7 @@ It is using a public tenant on PactFlow, which you can access [here](https://tes
 
 When using Pact in a CI/CD pipeline, there are two reasons for a pact verification task to take place:
 
-* When the provider changes (to make sure it does not break any existing consumer expectations) 123
+* When the provider changes (to make sure it does not break any existing consumer expectations)
 * When a pact changes (to see if the provider is compatible with the new expectations)
 
 When the provider changes, the pact verification task runs as part the provider's normal build pipeline, generally after the unit tests, and before any deployment takes place. This pact verification task is configured to dynamically fetch all the relevant pacts for the specified provider from PactFlow, verify them, and publish the results back to PactFlow.
