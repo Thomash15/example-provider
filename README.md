@@ -12,7 +12,7 @@ It is using a public tenant on PactFlow, which you can access [here](https://tes
 
 ## Pact verifications
 
-When using Pact in a CI/CD pipeline, there are two reasons for a pact verification task to take place: 
+When using Pact in a CI/CD pipeline, there are two reasons for a pact verification task to take place: 123
 
 * When the provider changes (to make sure it does not break any existing consumer expectations)
 * When a pact changes (to see if the provider is compatible with the new expectations)
